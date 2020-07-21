@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="VMProtect">
+      <UniqueIdentifier>{d6b8be44-d4b8-402a-86af-b02af74e8d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VMProtect\Include">
+      <UniqueIdentifier>{063a5ca0-88d6-407c-b667-3c5c654aebd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VMProtect\Lib">
+      <UniqueIdentifier>{cb01beef-3607-4787-be59-5bb438471e6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VMProtect\Lib\x64">
+      <UniqueIdentifier>{dcd8ec04-4c17-427f-b817-e223c8c405c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VMProtect\Lib\x86">
+      <UniqueIdentifier>{a88dd3c8-7aaf-46e9-9178-9a6a76f6fbc4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VMProtect\Include\VMProtectSDK.h">
+      <Filter>VMProtect\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="VMProtect\Lib\x86\VMProtectSDK32.lib">
+      <Filter>VMProtect\Lib\x86</Filter>
+    </Library>
+    <Library Include="VMProtect\Lib\x64\VMProtectSDK64.lib">
+      <Filter>VMProtect\Lib\x64</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VMProtect\Lib\x64\VMProtectSDK64.dll">
+      <Filter>VMProtect\Lib\x64</Filter>
+    </None>
+    <None Include="VMProtect\Lib\x86\VMProtectSDK32.dll">
+      <Filter>VMProtect\Lib\x86</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VMProtect_HWID", "VMProtect_HWID\VMProtect_HWID.vcxproj", "{A710F4F3-8405-4CBC-91D5-1198B7302E87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A710F4F3-8405-4CBC-91D5-1198B7302E87}.Release|Win32.ActiveCfg = Release|Win32
+		{A710F4F3-8405-4CBC-91D5-1198B7302E87}.Release|Win32.Build.0 = Release|Win32
+		{A710F4F3-8405-4CBC-91D5-1198B7302E87}.Release|x64.ActiveCfg = Release|x64
+		{A710F4F3-8405-4CBC-91D5-1198B7302E87}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {330B1E12-9A95-41F3-B4E6-1D971954992C}
+	EndGlobalSection
+EndGlobal
